@@ -22,4 +22,12 @@ export class MainPageComponent{
     nombre: 'Maestro Roshi',
     poder: 500
   }
+
+  agregarNuevoPersonaje( argumento: Personaje){
+    // debugger;
+    
+    this.personajes.push(argumento);
+    
+    
+  }
 }
